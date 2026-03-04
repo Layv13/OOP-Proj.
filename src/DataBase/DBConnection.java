@@ -1,4 +1,4 @@
-package DataBase;
+sfdfpackage DataBase;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,4 +12,5 @@ public class DBConnection {
             public static Connection getConnection() throws SQLException{
             return DriverManager.getConnection(URL, USER, PASSWORD);
 }
+
 }
